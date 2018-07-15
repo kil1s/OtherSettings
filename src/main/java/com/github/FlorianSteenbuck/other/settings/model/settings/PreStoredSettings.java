@@ -15,6 +15,11 @@ public class PreStoredSettings implements WriteableSettings {
     }
 
     @Override
+    public int getId() {
+        return -1;
+    }
+
+    @Override
     public Map<String, SettingProvider> getSettingProviders() {
         return providers;
     }

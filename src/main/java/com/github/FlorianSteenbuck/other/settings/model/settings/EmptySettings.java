@@ -8,6 +8,11 @@ import java.util.Map;
 
 public class EmptySettings implements Settings {
     @Override
+    public int getId() {
+        return -1;
+    }
+
+    @Override
     public Map<String, SettingProvider> getSettingProviders() {
         return new HashMap<String, SettingProvider>();
     }
