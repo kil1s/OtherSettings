@@ -1,6 +1,10 @@
 package com.github.FlorianSteenbuck.other.settings.typ;
 
+import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.Settings;
+
 public enum SettingsTyp {
+    SWITCH_SETTINGS(new SettingsOutput(Settings.class)),
+    MULTI_SETTINGS(new SettingsOutput(Settings.class, SettingsOutput.Typ.LIST)),
     TEXT_LINE(new SettingsOutput(String.class)),
     TEXT_AREA(new SettingsOutput(String.class)),
     INPUT_NUMBER(new SettingsOutput(Number.class)),

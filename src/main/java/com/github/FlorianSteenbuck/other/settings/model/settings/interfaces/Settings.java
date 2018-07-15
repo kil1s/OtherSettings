@@ -5,6 +5,7 @@ import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider
 import java.util.Map;
 
 public interface Settings {
+    int getId();
     Map<String, SettingProvider> getSettingProviders();
     boolean has(String id);
     Object get(String id);
