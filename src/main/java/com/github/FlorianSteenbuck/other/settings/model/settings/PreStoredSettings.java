@@ -5,6 +5,8 @@ import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataEx
 import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
 import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.WriteableSettings;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Map;
 
 public class PreStoredSettings implements WriteableSettings {
@@ -17,6 +19,11 @@ public class PreStoredSettings implements WriteableSettings {
     @Override
     public int getId() {
         return -1;
+    }
+
+    @Override
+    public Collection<String> getMandatories() {
+        return new ArrayList<String>();
     }
 
     @Override

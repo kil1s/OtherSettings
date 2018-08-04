@@ -6,6 +6,8 @@ import com.github.FlorianSteenbuck.other.settings.model.provider.NumberInputProv
 import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
 import com.github.FlorianSteenbuck.other.settings.model.provider.StringLineProvider;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +17,11 @@ public abstract class OverrideDynamicSettings extends PreSupportDynamicWriteable
 
     protected boolean needUpdateCache = true;
     protected Map<String, SettingProvider> cachedProviders = new HashMap<String, SettingProvider>();
+
+    @Override
+    public Collection<String> getMandatories() {
+        return new ArrayList<String>();
+    }
 
     @Override
     public Map<String, SettingProvider> getSettingProviders() {

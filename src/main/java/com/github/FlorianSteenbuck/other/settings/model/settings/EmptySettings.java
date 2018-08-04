@@ -3,6 +3,8 @@ package com.github.FlorianSteenbuck.other.settings.model.settings;
 import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
 import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.Settings;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,6 +12,11 @@ public class EmptySettings implements Settings {
     @Override
     public int getId() {
         return -1;
+    }
+
+    @Override
+    public Collection<String> getMandatories() {
+        return new ArrayList<String>();
     }
 
     @Override
