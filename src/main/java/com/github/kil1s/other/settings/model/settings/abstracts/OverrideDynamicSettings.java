@@ -1,10 +1,10 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings.abstracts;
+package com.github.kil1s.other.settings.model.settings.abstracts;
 
-import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.model.provider.BooleanCheckboxProvider;
-import com.github.FlorianSteenbuck.other.settings.model.provider.NumberInputProvider;
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
-import com.github.FlorianSteenbuck.other.settings.model.provider.StringLineProvider;
+import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
+import com.github.kil1s.other.settings.model.provider.BooleanCheckboxProvider;
+import com.github.kil1s.other.settings.model.provider.NumberInputProvider;
+import com.github.kil1s.other.settings.model.provider.SettingProvider;
+import com.github.kil1s.other.settings.model.provider.StringLineProvider;
 
 import java.util.ArrayList;
 import java.util.Collection;

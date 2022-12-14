@@ -1,4 +1,4 @@
-package com.github.FlorianSteenbuck.other.settings.exceptions;
+package com.github.kil1s.other.settings.exceptions;
 
 public class WrongSettingsDataException extends SettingException {
     public WrongSettingsDataException(String message) {

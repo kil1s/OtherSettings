@@ -1,8 +1,8 @@
-package com.github.FlorianSteenbuck.other.settings.model.provider;
+package com.github.kil1s.other.settings.model.provider;
 
-import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.helper.SettingsHelper;
-import com.github.FlorianSteenbuck.other.settings.typ.SettingsTyp;
+import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
+import com.github.kil1s.other.settings.helper.SettingsHelper;
+import com.github.kil1s.other.settings.typ.SettingsTyp;
 
 public abstract class SettingProvider<D> {
     private D data;

@@ -1,6 +1,6 @@
-package com.github.FlorianSteenbuck.other.settings.typ;
+package com.github.kil1s.other.settings.typ;
 
-import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.Settings;
+import com.github.kil1s.other.settings.model.settings.interfaces.Settings;
 
 public enum SettingsTyp {
     SWITCH_SETTINGS(new SettingsOutput(Settings.class)),

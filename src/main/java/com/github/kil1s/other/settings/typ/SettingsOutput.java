@@ -21,7 +21,7 @@
  *OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  *SOFTWARE.
  */
-package com.github.FlorianSteenbuck.other.settings.typ;
+package com.github.kil1s.other.settings.typ;
 
 public class SettingsOutput {
     public enum Typ {

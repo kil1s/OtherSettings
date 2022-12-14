@@ -1,7 +1,7 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings;
+package com.github.kil1s.other.settings.model.settings;
 
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
-import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.Settings;
+import com.github.kil1s.other.settings.model.provider.SettingProvider;
+import com.github.kil1s.other.settings.model.settings.interfaces.Settings;
 
 import java.util.ArrayList;
 import java.util.Collection;

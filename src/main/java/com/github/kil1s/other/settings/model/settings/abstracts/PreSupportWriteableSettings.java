@@ -1,8 +1,8 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings.abstracts;
+package com.github.kil1s.other.settings.model.settings.abstracts;
 
-import com.github.FlorianSteenbuck.other.settings.exceptions.UnsupportedSettingValueException;
-import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.WriteableSettings;
+import com.github.kil1s.other.settings.exceptions.UnsupportedSettingValueException;
+import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
+import com.github.kil1s.other.settings.model.settings.interfaces.WriteableSettings;
 
 public abstract class PreSupportWriteableSettings implements WriteableSettings {
     @Override

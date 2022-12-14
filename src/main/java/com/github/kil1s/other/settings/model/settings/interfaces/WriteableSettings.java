@@ -1,7 +1,7 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings.interfaces;
+package com.github.kil1s.other.settings.model.settings.interfaces;
 
-import com.github.FlorianSteenbuck.other.settings.exceptions.UnsupportedSettingValueException;
-import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
+import com.github.kil1s.other.settings.exceptions.UnsupportedSettingValueException;
+import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
 
 public interface WriteableSettings extends Settings {
     void set(String id, Object settingValue) throws UnsupportedSettingValueException, WrongSettingsDataException;

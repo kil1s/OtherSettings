@@ -1,9 +1,9 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings;
+package com.github.kil1s.other.settings.model.settings;
 
-import com.github.FlorianSteenbuck.other.settings.exceptions.UnsupportedSettingValueException;
-import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
-import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.WriteableSettings;
+import com.github.kil1s.other.settings.exceptions.UnsupportedSettingValueException;
+import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
+import com.github.kil1s.other.settings.model.provider.SettingProvider;
+import com.github.kil1s.other.settings.model.settings.interfaces.WriteableSettings;
 
 import java.util.ArrayList;
 import java.util.Collection;

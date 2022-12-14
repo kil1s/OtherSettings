@@ -1,4 +1,4 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings.interfaces;
+package com.github.kil1s.other.settings.model.settings.interfaces;
 
 import java.io.IOException;
 

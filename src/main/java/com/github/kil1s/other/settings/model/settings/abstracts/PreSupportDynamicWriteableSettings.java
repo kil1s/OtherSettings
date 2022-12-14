@@ -1,8 +1,8 @@
-package com.github.FlorianSteenbuck.other.settings.model.settings.abstracts;
+package com.github.kil1s.other.settings.model.settings.abstracts;
 
-import com.github.FlorianSteenbuck.other.settings.exceptions.UnsupportedSettingValueException;
-import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.DynamicWriteableSettings;
+import com.github.kil1s.other.settings.exceptions.UnsupportedSettingValueException;
+import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
+import com.github.kil1s.other.settings.model.settings.interfaces.DynamicWriteableSettings;
 
 public abstract class PreSupportDynamicWriteableSettings implements DynamicWriteableSettings {
     @Override

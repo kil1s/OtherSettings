@@ -1,6 +1,6 @@
-package com.github.FlorianSteenbuck.other.settings.helper;
-import com.github.FlorianSteenbuck.other.settings.typ.SettingsOutput;
-import com.github.FlorianSteenbuck.other.settings.typ.SettingsTyp;
+package com.github.kil1s.other.settings.helper;
+import com.github.kil1s.other.settings.typ.SettingsOutput;
+import com.github.kil1s.other.settings.typ.SettingsTyp;
 
 import java.util.Collection;
 import java.util.List;
