@@ -2,7 +2,7 @@ package com.github.kil1s.other.settings.typ;
 
 import com.github.kil1s.other.settings.model.settings.interfaces.Settings;
 
-public enum SettingsTyp {
+public enum SettingsTyp implements SettingsTypInterface {
     SWITCH_SETTINGS(new SettingsOutput(Settings.class)),
     MULTI_SETTINGS(new SettingsOutput(Settings.class, SettingsOutput.Typ.LIST)),
     TEXT_LINE(new SettingsOutput(String.class)),
@@ -26,5 +26,10 @@ public enum SettingsTyp {
 
     public SettingsOutput[] getValidOutputs() {
         return validOutputs;
+    }
+
+    @Override
+    public String getName() {
+        return this.name();
     }
 }

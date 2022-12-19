@@ -2,13 +2,13 @@ package com.github.kil1s.other.settings.model.provider;
 
 import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
 import com.github.kil1s.other.settings.helper.SettingsHelper;
-import com.github.kil1s.other.settings.typ.SettingsTyp;
+import com.github.kil1s.other.settings.typ.SettingsTypInterface;
 
 public abstract class SettingProvider<D> {
     private D data;
-    private SettingsTyp typ;
+    private SettingsTypInterface typ;
 
-    public SettingProvider(D defaultData, SettingsTyp typ) throws WrongSettingsDataException {
+    public SettingProvider(D defaultData, SettingsTypInterface typ) throws WrongSettingsDataException {
         this.typ = typ;
         setData(defaultData);
     }
@@ -19,7 +19,7 @@ public abstract class SettingProvider<D> {
 
     public void setData(D data) throws WrongSettingsDataException {
         if (!SettingsHelper.instanceOfSettingsTyp(data, typ)) {
-            throw new WrongSettingsDataException("data is not compatible with the SettingsTyp "+typ.name());
+            throw new WrongSettingsDataException("data is not compatible with the SettingsTyp " + typ.getName());
         }
         this.data = data;
     }

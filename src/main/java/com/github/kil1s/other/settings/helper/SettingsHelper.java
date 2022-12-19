@@ -1,6 +1,7 @@
 package com.github.kil1s.other.settings.helper;
 import com.github.kil1s.other.settings.typ.SettingsOutput;
 import com.github.kil1s.other.settings.typ.SettingsTyp;
+import com.github.kil1s.other.settings.typ.SettingsTypInterface;
 
 import java.util.Collection;
 import java.util.List;
@@ -11,7 +12,7 @@ public class SettingsHelper {
         return instance instanceof Collection || instance instanceof Map;
     }
 
-    public static boolean instanceOfSettingsTyp(List instance, SettingsTyp typ) {
+    public static boolean instanceOfSettingsTyp(List instance, SettingsTypInterface typ) {
         for (SettingsOutput validOutput:typ.getValidOutputs()) {
             if (validOutput.getTyp() != SettingsOutput.Typ.LIST) {
                 continue;
@@ -27,7 +28,7 @@ public class SettingsHelper {
         return false;
     }
 
-    public static boolean instanceOfSettingsTyp(Object instance, SettingsTyp typ) {
+    public static boolean instanceOfSettingsTyp(Object instance, SettingsTypInterface typ) {
         if (instance instanceof List) {
             return instanceOfSettingsTyp((List) instance, typ);
         }
