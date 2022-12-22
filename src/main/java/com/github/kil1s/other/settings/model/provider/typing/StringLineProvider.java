@@ -1,4 +1,4 @@
-package com.github.kil1s.other.settings.model.typing;
+package com.github.kil1s.other.settings.model.provider.typing;
 
 import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
 import com.github.kil1s.other.settings.model.provider.SettingProvider;

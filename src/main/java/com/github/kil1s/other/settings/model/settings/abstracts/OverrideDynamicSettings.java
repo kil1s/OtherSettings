@@ -1,10 +1,10 @@
 package com.github.kil1s.other.settings.model.settings.abstracts;
 
 import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
-import com.github.kil1s.other.settings.model.typing.BooleanCheckboxProvider;
-import com.github.kil1s.other.settings.model.typing.NumberInputProvider;
+import com.github.kil1s.other.settings.model.provider.typing.BooleanCheckboxProvider;
+import com.github.kil1s.other.settings.model.provider.typing.NumberInputProvider;
 import com.github.kil1s.other.settings.model.provider.SettingProvider;
-import com.github.kil1s.other.settings.model.typing.StringLineProvider;
+import com.github.kil1s.other.settings.model.provider.typing.StringLineProvider;
 
 import java.util.ArrayList;
 import java.util.Collection;
