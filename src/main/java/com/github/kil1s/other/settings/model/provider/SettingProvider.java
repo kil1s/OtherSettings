@@ -4,11 +4,12 @@ import com.github.kil1s.other.settings.exceptions.WrongSettingsDataException;
 import com.github.kil1s.other.settings.helper.SettingsHelper;
 import com.github.kil1s.other.settings.typ.SettingsTypInterface;
 
-public abstract class SettingProvider<D> {
+public abstract class SettingProvider<D> extends SettingProviderTemplate<D> {
     private D data;
     private SettingsTypInterface typ;
 
     public SettingProvider(D defaultData, SettingsTypInterface typ) throws WrongSettingsDataException {
+        super(typ);
         this.typ = typ;
         setData(defaultData);
     }
